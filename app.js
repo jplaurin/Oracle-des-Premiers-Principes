@@ -324,7 +324,7 @@ function showPage(pageElement) {
 }
 
 function getRandomCard() {
-    const randomIndex = Math.floor(Math.random() * 5); //oracleCards.length);  // 4); // 
+    const randomIndex = Math.floor(Math.random() * oracleCards.length);  // 4); // 
     return oracleCards[randomIndex]; //[0]; //
 }
 
