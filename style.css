@@ -926,6 +926,32 @@ select.form-control {
   margin-bottom: var(--space-16);
 }
 
+/* Image de la carte */
+.card-image-container {
+  margin-bottom: var(--space-24);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+
+.card-image-container.hidden {
+  display: none;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  max-height: 1000px;
+  object-fit: cover;
+  display: block;
+  border-radius: var(--radius-md);
+  transition: transform var(--duration-normal) var(--ease-standard);
+}
+
+.card-image:hover {
+  transform: scale(1.02);
+}
+
 .card-title {
   font-size: var(--font-size-3xl);
   font-weight: var(--font-weight-bold);
@@ -1061,6 +1087,10 @@ select.form-control {
     width: 100%;
     max-width: 250px;
   }
+  
+  .card-image {
+    max-height: 200px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -1075,6 +1105,21 @@ select.form-control {
   .oracle-card {
     padding: var(--space-20);
   }
+  
+  .card-image {
+    max-height: 180px;
+  }
+}
+
+/* Améliorations d'accessibilité pour les images */
+.card-image {
+  border: 1px solid var(--color-card-border);
+}
+
+/* Affichage spécial pour la carte Evolution */
+.card-image-evolution {
+  background: linear-gradient(135deg, var(--color-bg-3) 0%, var(--color-bg-1) 100%);
+  padding: var(--space-8);
 }
 
 /* Transitions entre les pages */
@@ -1116,6 +1161,10 @@ select.form-control {
   }
   
   .card-actions .btn:hover {
+    transform: none;
+  }
+  
+  .card-image:hover {
     transform: none;
   }
 }

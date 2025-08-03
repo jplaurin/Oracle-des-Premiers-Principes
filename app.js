@@ -6,7 +6,8 @@ const oracleCards = [
         "fait_verifie": "Tous les organismes vivants évoluent par sélection naturelle (Darwin, 1859).",
         "question": "Comment puis-je améliorer cette idée ou situation par petits ajustements et adaptations successives ?",
         "principe": "Progrès par itérations",
-        "citation": "C'est la survie non du plus fort, mais du plus apte à s'adapter au changement."
+        "citation": "C'est la survie non du plus fort, mais du plus apte à s'adapter au changement.",
+        "image": "01-evolution.png"
     },
     {
         "numero": 2,
@@ -293,10 +294,11 @@ const oracleCards = [
 // Variables globales
 let currentCard = null;
 
-// Éléments du DOM - Initialisation lors du chargement du DOM
+// Éléments du DOM
 let homePage, drawingPage, cardPage;
 let drawCardBtn, newCardBtn, homeBtn;
 let cardNumber, cardTitle, cardFact, cardQuestion, cardPrinciple, cardCitation;
+let cardImageContainer, cardImage;
 
 // Fonctions utilitaires
 function hideAllPages() {
@@ -317,7 +319,7 @@ function showPage(pageElement) {
 
 function getRandomCard() {
     const randomIndex = Math.floor(Math.random() * oracleCards.length);
-    return oracleCards[randomIndex];
+    return oracleCards[randomIndex]; //[0]; //
 }
 
 function displayCard(card) {
@@ -327,12 +329,43 @@ function displayCard(card) {
     }
     
     try {
+        // Vérifier que tous les éléments DOM nécessaires existent
+        if (!cardNumber || !cardTitle || !cardFact || !cardQuestion || !cardPrinciple || !cardCitation) {
+            console.error('Required card elements not found');
+            return;
+        }
+
         cardNumber.textContent = card.numero;
         cardTitle.textContent = card.titre;
         cardFact.textContent = card.fait_verifie;
         cardQuestion.textContent = card.question;
         cardPrinciple.textContent = card.principe;
         cardCitation.textContent = card.citation;
+
+        // Gestion de l'image
+        if (card.image && cardImageContainer && cardImage) {
+            cardImage.src = card.image;
+            cardImage.alt = `Illustration pour ${card.titre}`;
+            cardImageContainer.classList.remove('hidden');
+            
+            // Ajouter une classe spéciale pour la carte d'évolution
+            if (card.numero === 1) {
+                cardImage.classList.add('card-image-evolution');
+            } else {
+                cardImage.classList.remove('card-image-evolution');
+            }
+            
+            // Gestion des erreurs de chargement d'image
+            cardImage.onerror = function() {
+                console.warn(`Image ${card.image} not found, hiding image container`);
+                cardImageContainer.classList.add('hidden');
+            };
+        } else if (cardImageContainer) {
+            // Masquer le conteneur d'image si pas d'image
+            cardImageContainer.classList.add('hidden');
+        }
+
+        console.log(`Card displayed: ${card.titre} (${card.numero})`);
     } catch (error) {
         console.error('Error displaying card:', error);
     }
@@ -354,14 +387,16 @@ function drawCard() {
     // Afficher la page d'animation
     showPage(drawingPage);
     
-    // Préparer les données de la carte
-    displayCard(currentCard);
-    
-    // Attendre la fin de l'animation puis afficher la carte
+    // Attendre un peu puis préparer les données de la carte
     setTimeout(() => {
-        console.log('Showing card page...');
-        showPage(cardPage);
-    }, 2500);
+        displayCard(currentCard);
+        
+        // Attendre la fin de l'animation puis afficher la carte
+        setTimeout(() => {
+            console.log('Showing card page...');
+            showPage(cardPage);
+        }, 1000);
+    }, 500);
 }
 
 // Initialisation
@@ -384,7 +419,11 @@ function initializeApp() {
     cardPrinciple = document.getElementById('card-principle');
     cardCitation = document.getElementById('card-citation');
     
-    // Vérifier que tous les éléments sont présents
+    // Nouveaux éléments pour l'image
+    cardImageContainer = document.getElementById('card-image-container');
+    cardImage = document.getElementById('card-image');
+    
+    // Vérifier que tous les éléments essentiels sont présents
     const requiredElements = [
         homePage, drawingPage, cardPage,
         drawCardBtn, newCardBtn, homeBtn,
@@ -397,30 +436,41 @@ function initializeApp() {
         return;
     }
     
+    // Vérifier les éléments d'image (optionnels)
+    if (!cardImageContainer || !cardImage) {
+        console.warn('Image elements not found - images will not be displayed');
+    }
+    
     // Ajouter les gestionnaires d'événements
-    drawCardBtn.addEventListener('click', (e) => {
-        e.preventDefault();
-        console.log('Draw card button clicked');
-        drawCard();
-    });
+    if (drawCardBtn) {
+        drawCardBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            console.log('Draw card button clicked');
+            drawCard();
+        });
+    }
     
-    newCardBtn.addEventListener('click', (e) => {
-        e.preventDefault();
-        console.log('New card button clicked');
-        drawCard();
-    });
+    if (newCardBtn) {
+        newCardBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            console.log('New card button clicked');
+            drawCard();
+        });
+    }
     
-    homeBtn.addEventListener('click', (e) => {
-        e.preventDefault();
-        console.log('Home button clicked');
-        showPage(homePage);
-        currentCard = null;
-    });
+    if (homeBtn) {
+        homeBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            console.log('Home button clicked');
+            showPage(homePage);
+            currentCard = null;
+        });
+    }
     
     // Ajouter des attributs d'accessibilité
-    drawCardBtn.setAttribute('aria-label', 'Tirer une carte de l\'oracle');
-    newCardBtn.setAttribute('aria-label', 'Tirer une nouvelle carte');
-    homeBtn.setAttribute('aria-label', 'Retourner à la page d\'accueil');
+    if (drawCardBtn) drawCardBtn.setAttribute('aria-label', 'Tirer une carte de l\'oracle');
+    if (newCardBtn) newCardBtn.setAttribute('aria-label', 'Tirer une nouvelle carte');
+    if (homeBtn) homeBtn.setAttribute('aria-label', 'Retourner à la page d\'accueil');
     
     // Afficher la page d'accueil
     showPage(homePage);
@@ -431,10 +481,12 @@ function initializeApp() {
 // Gestion du clavier pour l'accessibilité
 document.addEventListener('keydown', (event) => {
     if (event.key === 'Escape') {
-        if (cardPage && cardPage.classList.contains('active') || 
-            drawingPage && drawingPage.classList.contains('active')) {
-            showPage(homePage);
-            currentCard = null;
+        if ((cardPage && cardPage.classList.contains('active')) || 
+            (drawingPage && drawingPage.classList.contains('active'))) {
+            if (homePage) {
+                showPage(homePage);
+                currentCard = null;
+            }
         }
     }
     
@@ -448,4 +500,9 @@ document.addEventListener('keydown', (event) => {
 });
 
 // Initialiser l'application quand le DOM est prêt
-document.addEventListener('DOMContentLoaded', initializeApp);
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initializeApp);
+} else {
+    // DOM déjà chargé
+    initializeApp();
+}
