@@ -24,7 +24,8 @@ const oracleCards = [
         "fait_verifie": "L'énergie ne peut être créée ni détruite, seulement transformée (Lavoisier, 18e siècle).",
         "question": "Où est l'énergie cachée ou mal utilisée ici ? Comment puis-je la transformer ?",
         "principe": "Conservation et transformation des ressources",
-        "citation": "Rien ne se perd, rien ne se crée, tout se transforme."
+        "citation": "Rien ne se perd, rien ne se crée, tout se transforme.",
+        "image": "03-Conservation.png"
     },
     {
         "numero": 4,
@@ -32,7 +33,9 @@ const oracleCards = [
         "fait_verifie": "Remettre en question les idées reçues permet d'éviter les biais cognitifs (Kahneman & Tversky, 1970).",
         "question": "Quelles croyances non fondées freinent ma compréhension ou mon action ici ?",
         "principe": "Doute méthodique",
-        "citation": "Ce n'est pas parce qu'on l'a toujours fait ainsi que c'est juste."
+        "citation": "Ce n'est pas parce qu'on l'a toujours fait ainsi que c'est juste.",
+        "image": "04-pense-critique.png"
+
     },
     {
         "numero": 5,
@@ -40,7 +43,9 @@ const oracleCards = [
         "fait_verifie": "De petits changements peuvent avoir de grands effets (Théorie du chaos - Lorenz, 1963).",
         "question": "Quelle petite action pourrait impacter durablement la situation ?",
         "principe": "Effet cumulatif",
-        "citation": "Un battement d'ailes peut déclencher un ouragan."
+        "citation": "Un battement d'ailes peut déclencher un ouragan.",
+        "image": "05-papillion.png"
+
     },
     {
         "numero": 6,
@@ -319,7 +324,7 @@ function showPage(pageElement) {
 }
 
 function getRandomCard() {
-    const randomIndex = Math.floor(Math.random() * oracleCards.length);  // 2); // 
+    const randomIndex = Math.floor(Math.random() * 5); //oracleCards.length);  // 4); // 
     return oracleCards[randomIndex]; //[0]; //
 }
 
