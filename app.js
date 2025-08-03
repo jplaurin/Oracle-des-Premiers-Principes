@@ -53,7 +53,9 @@ const oracleCards = [
         "fait_verifie": "L'autonomie est la capacité à prendre des décisions indépendantes basées sur la connaissance et la raison (philosophie morale moderne).",
         "question": "Comment puis-je renforcer ma liberté en prenant des décisions basées sur la connaissance plutôt que sur la peur ?",
         "principe": "Liberté par la connaissance",
-        "citation": "La liberté ne consiste pas à faire ce que l'on veut, mais à vouloir ce que l'on peut faire."
+        "citation": "La liberté ne consiste pas à faire ce que l'on veut, mais à vouloir ce que l'on peut faire.",
+        "image": "06-autonomie.png"
+
     },
     {
         "numero": 7,
