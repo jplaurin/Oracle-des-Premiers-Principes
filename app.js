@@ -15,7 +15,8 @@ const oracleCards = [
         "fait_verifie": "Deux corps s'attirent toujours en fonction de leur masse et de la distance qui les sépare (Newton, 1687).",
         "question": "Qu'est-ce qui attire ou repousse au cœur de ce projet ? Quelles forces invisibles influencent la situation ?",
         "principe": "Forces fondamentales",
-        "citation": "Ce qui agit à distance agit tout de même."
+        "citation": "Ce qui agit à distance agit tout de même.",
+        "image": "02-gravitation.png"
     },
     {
         "numero": 3,
@@ -318,7 +319,7 @@ function showPage(pageElement) {
 }
 
 function getRandomCard() {
-    const randomIndex = Math.floor(Math.random() * oracleCards.length);
+    const randomIndex = Math.floor(Math.random() * oracleCards.length);  // 2); // 
     return oracleCards[randomIndex]; //[0]; //
 }
 
