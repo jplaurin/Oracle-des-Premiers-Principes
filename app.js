@@ -7,7 +7,7 @@ const oracleCards = [
         "question": "Comment puis-je améliorer cette idée ou situation par petits ajustements et adaptations successives ?",
         "principe": "Progrès par itérations",
         "citation": "C'est la survie non du plus fort, mais du plus apte à s'adapter au changement.",
-        "image": "01-evolution.png"
+        "image": "01-evolution.jpg"
     },
     {
         "numero": 2,
@@ -16,7 +16,7 @@ const oracleCards = [
         "question": "Qu'est-ce qui attire ou repousse au cœur de ce projet ? Quelles forces invisibles influencent la situation ?",
         "principe": "Forces fondamentales",
         "citation": "Ce qui agit à distance agit tout de même.",
-        "image": "02-gravitation.png"
+        "image": "02-gravitation.jpg"
     },
     {
         "numero": 3,
@@ -25,7 +25,7 @@ const oracleCards = [
         "question": "Où est l'énergie cachée ou mal utilisée ici ? Comment puis-je la transformer ?",
         "principe": "Conservation et transformation des ressources",
         "citation": "Rien ne se perd, rien ne se crée, tout se transforme.",
-        "image": "03-Conservation.png"
+        "image": "03-Conservation.jpg"
     },
     {
         "numero": 4,
@@ -34,7 +34,7 @@ const oracleCards = [
         "question": "Quelles croyances non fondées freinent ma compréhension ou mon action ici ?",
         "principe": "Doute méthodique",
         "citation": "Ce n'est pas parce qu'on l'a toujours fait ainsi que c'est juste.",
-        "image": "04-pense-critique.png"
+        "image": "04-pense-critique.jpg"
 
     },
     {
@@ -44,7 +44,7 @@ const oracleCards = [
         "question": "Quelle petite action pourrait impacter durablement la situation ?",
         "principe": "Effet cumulatif",
         "citation": "Un battement d'ailes peut déclencher un ouragan.",
-        "image": "05-papillion.png"
+        "image": "05-papillion.jpg"
 
     },
     {
@@ -54,7 +54,7 @@ const oracleCards = [
         "question": "Comment puis-je renforcer ma liberté en prenant des décisions basées sur la connaissance plutôt que sur la peur ?",
         "principe": "Liberté par la connaissance",
         "citation": "La liberté ne consiste pas à faire ce que l'on veut, mais à vouloir ce que l'on peut faire.",
-        "image": "06-autonomie.png"
+        "image": "06-autonomie.jpg"
 
     },
     {
