@@ -194,7 +194,7 @@ const oracleCards = [
         "question": "Quelle est la véritable cause racine de ce problème ?",
         "principe": "Recherche des origines",
         "citation": "Traiter la cause élimine l'effet.",
-        "image": "_.jpg"
+        "image": "20-causalite.jpg"
 
     },
     {
@@ -384,10 +384,11 @@ function showPage(pageElement) {
     hideAllPages();
     pageElement.classList.add('active');
 }
-
+// var randomIndex = oracleCards.length-1;
 function getRandomCard() {
-    const randomIndex = Math.floor(Math.random() *  oracleCards.length);  // 12); // 
-    return oracleCards[randomIndex]; //[0]; //
+    const randomIndex = Math.floor(Math.random() *  oracleCards.length);  
+//    randomIndex = (randomIndex +1) % oracleCards.length
+    return oracleCards[randomIndex]; 
 }
 
 function displayCard(card) {
