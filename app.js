@@ -361,6 +361,7 @@ const oracleCards = [
 
 // Variables globales
 let currentCard = null;
+let drawPool = [];
 
 // Éléments du DOM
 let homePage, drawingPage, cardPage;
@@ -385,10 +386,19 @@ function showPage(pageElement) {
     pageElement.classList.add('active');
 }
 // var randomIndex = oracleCards.length-1;
-function getRandomCard() {
-    const randomIndex = Math.floor(Math.random() *  oracleCards.length);  
+//function getRandomCard() {
+//    const randomIndex = Math.floor(Math.random() *  oracleCards.length);  
 //    randomIndex = (randomIndex +1) % oracleCards.length
-    return oracleCards[randomIndex]; 
+//    return oracleCards[randomIndex]; 
+//}
+
+function getRandomCard() {
+  if (drawPool.length === 0) {
+    alert("Toutes les cartes ont été tirées ! Retournez à l'accueil pour recommencer.");
+    return null;
+  }
+  const randomIndex = Math.floor(Math.random() * drawPool.length);
+  return drawPool.splice(randomIndex, 1)[0]; // Tire et retire la carte du pool
 }
 
 function displayCard(card) {
@@ -451,6 +461,11 @@ function drawCard() {
     
     // Sélectionner une carte aléatoire immédiatement
     currentCard = getRandomCard();
+    if (!currentCard) {
+      showPage(cardPage);
+      // Optionnel : masquer boutons d’action ou mettre un message de fin de tirage
+      return;
+    }
     console.log('Selected card:', currentCard);
     
     // Afficher la page d'animation
@@ -532,6 +547,7 @@ function initializeApp() {
             e.preventDefault();
             console.log('Home button clicked');
             showPage(homePage);
+            drawPool = [...oracleCards];
             currentCard = null;
         });
     }
@@ -543,6 +559,7 @@ function initializeApp() {
     
     // Afficher la page d'accueil
     showPage(homePage);
+    drawPool = [...oracleCards];
     
     console.log(`Oracle initialisé avec ${oracleCards.length} cartes`);
 }
