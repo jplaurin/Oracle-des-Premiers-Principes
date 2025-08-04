@@ -164,7 +164,7 @@ const oracleCards = [
         "question": "Quelles preuves pourraient contredire ma conviction actuelle ?",
         "principe": "Remise en question constructive",
         "citation": "La vérité résiste à l'épreuve du doute.",
-        "image": "_.jpg"
+        "image": "17-falsifiabilite.jpg"
 
     },
     {
