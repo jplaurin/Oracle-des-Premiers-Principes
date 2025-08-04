@@ -184,7 +184,7 @@ const oracleCards = [
         "question": "À partir de quel moment dois-je arrêter d'investir dans cette voie ?",
         "principe": "Optimisation des ressources",
         "citation": "Plus n'est pas toujours mieux.",
-        "image": "_.jpg"
+        "image": "19-rendements.jpg"
 
     },
     {
