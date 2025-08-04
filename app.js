@@ -204,7 +204,7 @@ const oracleCards = [
         "question": "Comment puis-je répartir mes efforts pour minimiser les risques ?",
         "principe": "Prudence stratégique",
         "citation": "Ne pas mettre tous ses œufs dans le même panier.",
-        "image": "_.jpg"
+        "image": "21-risques.jpg"
 
     },
     {
