@@ -254,7 +254,7 @@ const oracleCards = [
         "question": "Quel est le goulot d'étranglement qui limite ma progression ?",
         "principe": "Identification du limitant",
         "citation": "Renforcer le maillon faible libère tout le potentiel.",
-        "image": "_.jpg"
+        "image": "26-contraintes.jpg"
 
     },
     {
