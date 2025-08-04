@@ -154,7 +154,7 @@ const oracleCards = [
         "question": "Comment les éléments de cette situation interagissent-ils entre eux ?",
         "principe": "Vision systémique",
         "citation": "Comprendre les interactions révèle le potentiel du système.",
-        "image": "_.jpg"
+        "image": "16-systemes.jpg"
 
     },
     {
