@@ -123,8 +123,8 @@ const oracleCards = [
         "fait_verifie": "L'entropie d'un système isolé ne peut qu'augmenter (Deuxième loi de la thermodynamique).",
         "question": "Où dois-je apporter de l'énergie pour maintenir l'ordre et éviter la dégradation ?",
         "principe": "Maintenance active",
-        "citation": "L'ordre nécessite un effort constant.",
-        "image": "_.jpg"
+        "citation": "L'ordre nécessite un effort constant.",    
+        "image": "13-Entropie.jpg"
 
     },
     {
@@ -386,7 +386,7 @@ function showPage(pageElement) {
 }
 
 function getRandomCard() {
-    const randomIndex = Math.floor(Math.random() * oracleCards.length);  // 4); // 
+    const randomIndex = Math.floor(Math.random() *  oracleCards.length);  // 12); // 
     return oracleCards[randomIndex]; //[0]; //
 }
 
