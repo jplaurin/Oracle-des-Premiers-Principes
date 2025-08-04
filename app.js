@@ -174,7 +174,7 @@ const oracleCards = [
         "question": "À quelle étape de l'apprentissage suis-je ? Que dois-je maîtriser ensuite ?",
         "principe": "Progression méthodique",
         "citation": "Chaque expert était autrefois un débutant.",
-        "image": "_.jpg"
+        "image": "18-apprentissage.jpg"
 
     },
     {
