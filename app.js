@@ -214,7 +214,7 @@ const oracleCards = [
         "question": "Quels signaux me permettent de corriger ma trajectoire ?",
         "principe": "Ajustement continu",
         "citation": "Celui qui écoute les signaux navigue avec précision.",
-        "image": "_.jpg"
+        "image": "22-retroaction.jpg"
 
     },
     {
