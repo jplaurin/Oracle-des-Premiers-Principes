@@ -264,7 +264,7 @@ const oracleCards = [
         "question": "Depuis quel autre point de vue puis-je considérer cette situation ?",
         "principe": "Relativité des perspectives",
         "citation": "Changer de référentiel change la réalité perçue.",
-        "image": "_.jpg"
+        "image": "27-relativite.jpg"
 
     },
     {
