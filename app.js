@@ -134,7 +134,7 @@ const oracleCards = [
         "question": "Comment puis-je créer ou rejoindre des réseaux qui multiplieront mes possibilités ?",
         "principe": "Synergie collective",
         "citation": "La force du réseau réside dans ses connexions.",
-        "image": "_.jpg"
+        "image": "14-reseau.jpg"
 
     },
     {
