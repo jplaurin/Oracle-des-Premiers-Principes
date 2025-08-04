@@ -224,7 +224,7 @@ const oracleCards = [
         "question": "Dans quel domaine pourrais-je surestimer mes compétences ?",
         "principe": "Humilité cognitive",
         "citation": "Plus on sait, plus on réalise qu'on ne sait pas.",
-        "image": "_.jpg"
+        "image": "23-Dunning.jpg"
 
     },
     {
