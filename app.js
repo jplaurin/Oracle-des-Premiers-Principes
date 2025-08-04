@@ -144,7 +144,7 @@ const oracleCards = [
         "question": "Comment puis-je créer de la valeur pour les autres afin de renforcer mes relations ?",
         "principe": "Échange mutuel",
         "citation": "Donner avant de recevoir ouvre toutes les portes.",
-        "image": "_.jpg"
+        "image": "15-reciprocite.jpg"
 
     },
     {
