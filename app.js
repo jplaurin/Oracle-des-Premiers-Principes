@@ -244,7 +244,7 @@ const oracleCards = [
         "question": "Quelles possibilités puis-je maintenir ouvertes avant de faire un choix définitif ?",
         "principe": "Options multiples",
         "citation": "Garder plusieurs portes ouvertes préserve les opportunités.",
-        "image": "_.jpg"
+        "image": "25-superposition.jpg"
 
     },
     {
