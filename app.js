@@ -104,7 +104,7 @@ const oracleCards = [
         "question": "Comment puis-je tester cette idée avant de m'y engager pleinement ?",
         "principe": "Validation empirique",
         "citation": "Une théorie qui n'est pas réfutable n'est pas scientifique.",
-        "image": "_.jpg"
+        "image": "11-Methode.jpg"
 
     },
     {
