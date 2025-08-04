@@ -83,7 +83,9 @@ const oracleCards = [
         "fait_verifie": "Le prix d'un bien s'établit par l'équilibre entre l'offre et la demande (Adam Smith, 1776).",
         "question": "Qu'est-ce qui est vraiment demandé ici ? Quelle valeur puis-je apporter ?",
         "principe": "Équilibre des échanges",
-        "citation": "La valeur réelle réside dans l'utilité perçue."
+        "citation": "La valeur réelle réside dans l'utilité perçue.",
+        "image": "09-offre-demande.jpg"
+
     },
     {
         "numero": 10,
@@ -91,7 +93,9 @@ const oracleCards = [
         "fait_verifie": "Il est impossible de connaître simultanément la position et la vitesse d'une particule (Heisenberg, 1927).",
         "question": "Quelles incertitudes dois-je accepter pour avancer ?",
         "principe": "Acceptation de l'inconnu",
-        "citation": "L'incertitude est le seul endroit où réside la possibilité."
+        "citation": "L'incertitude est le seul endroit où réside la possibilité.",
+        "image": "_.jpg"
+
     },
     {
         "numero": 11,
@@ -99,7 +103,9 @@ const oracleCards = [
         "fait_verifie": "Une hypothèse doit être testable et réfutable pour être considérée comme scientifique (Popper, 1934).",
         "question": "Comment puis-je tester cette idée avant de m'y engager pleinement ?",
         "principe": "Validation empirique",
-        "citation": "Une théorie qui n'est pas réfutable n'est pas scientifique."
+        "citation": "Une théorie qui n'est pas réfutable n'est pas scientifique.",
+        "image": "_.jpg"
+
     },
     {
         "numero": 12,
@@ -107,7 +113,9 @@ const oracleCards = [
         "fait_verifie": "80% des effets proviennent de 20% des causes (Pareto, 1896).",
         "question": "Quels 20% d'efforts pourraient produire 80% des résultats souhaités ?",
         "principe": "Efficacité concentrée",
-        "citation": "L'essentiel réside souvent dans le minoritaire."
+        "citation": "L'essentiel réside souvent dans le minoritaire.",
+        "image": "_.jpg"
+
     },
     {
         "numero": 13,
@@ -115,7 +123,9 @@ const oracleCards = [
         "fait_verifie": "L'entropie d'un système isolé ne peut qu'augmenter (Deuxième loi de la thermodynamique).",
         "question": "Où dois-je apporter de l'énergie pour maintenir l'ordre et éviter la dégradation ?",
         "principe": "Maintenance active",
-        "citation": "L'ordre nécessite un effort constant."
+        "citation": "L'ordre nécessite un effort constant.",
+        "image": "_.jpg"
+
     },
     {
         "numero": 14,
@@ -123,7 +133,9 @@ const oracleCards = [
         "fait_verifie": "La valeur d'un réseau augmente proportionnellement au carré du nombre d'utilisateurs (Loi de Metcalfe).",
         "question": "Comment puis-je créer ou rejoindre des réseaux qui multiplieront mes possibilités ?",
         "principe": "Synergie collective",
-        "citation": "La force du réseau réside dans ses connexions."
+        "citation": "La force du réseau réside dans ses connexions.",
+        "image": "_.jpg"
+
     },
     {
         "numero": 15,
@@ -131,7 +143,9 @@ const oracleCards = [
         "fait_verifie": "Les humains ont tendance à rendre les faveurs reçues (Cialdini, 1984).",
         "question": "Comment puis-je créer de la valeur pour les autres afin de renforcer mes relations ?",
         "principe": "Échange mutuel",
-        "citation": "Donner avant de recevoir ouvre toutes les portes."
+        "citation": "Donner avant de recevoir ouvre toutes les portes.",
+        "image": "_.jpg"
+
     },
     {
         "numero": 16,
@@ -139,7 +153,9 @@ const oracleCards = [
         "fait_verifie": "Le tout est plus que la somme de ses parties (Bertalanffy, 1968).",
         "question": "Comment les éléments de cette situation interagissent-ils entre eux ?",
         "principe": "Vision systémique",
-        "citation": "Comprendre les interactions révèle le potentiel du système."
+        "citation": "Comprendre les interactions révèle le potentiel du système.",
+        "image": "_.jpg"
+
     },
     {
         "numero": 17,
@@ -147,7 +163,9 @@ const oracleCards = [
         "fait_verifie": "Une affirmation n'a de valeur scientifique que si elle peut être réfutée (Popper).",
         "question": "Quelles preuves pourraient contredire ma conviction actuelle ?",
         "principe": "Remise en question constructive",
-        "citation": "La vérité résiste à l'épreuve du doute."
+        "citation": "La vérité résiste à l'épreuve du doute.",
+        "image": "_.jpg"
+
     },
     {
         "numero": 18,
@@ -155,7 +173,9 @@ const oracleCards = [
         "fait_verifie": "La compétence s'acquiert progressivement selon une courbe prévisible (Ebbinghaus, 1885).",
         "question": "À quelle étape de l'apprentissage suis-je ? Que dois-je maîtriser ensuite ?",
         "principe": "Progression méthodique",
-        "citation": "Chaque expert était autrefois un débutant."
+        "citation": "Chaque expert était autrefois un débutant.",
+        "image": "_.jpg"
+
     },
     {
         "numero": 19,
@@ -163,7 +183,9 @@ const oracleCards = [
         "fait_verifie": "Au-delà d'un certain point, ajouter des ressources produit moins de résultats (Ricardo, 1817).",
         "question": "À partir de quel moment dois-je arrêter d'investir dans cette voie ?",
         "principe": "Optimisation des ressources",
-        "citation": "Plus n'est pas toujours mieux."
+        "citation": "Plus n'est pas toujours mieux.",
+        "image": "_.jpg"
+
     },
     {
         "numero": 20,
@@ -171,7 +193,9 @@ const oracleCards = [
         "fait_verifie": "Tout effet a une cause (Principe fondamental de la physique).",
         "question": "Quelle est la véritable cause racine de ce problème ?",
         "principe": "Recherche des origines",
-        "citation": "Traiter la cause élimine l'effet."
+        "citation": "Traiter la cause élimine l'effet.",
+        "image": "_.jpg"
+
     },
     {
         "numero": 21,
@@ -179,7 +203,9 @@ const oracleCards = [
         "fait_verifie": "Répartir les risques réduit la probabilité de perte totale (Théorie moderne du portefeuille - Markowitz, 1952).",
         "question": "Comment puis-je répartir mes efforts pour minimiser les risques ?",
         "principe": "Prudence stratégique",
-        "citation": "Ne pas mettre tous ses œufs dans le même panier."
+        "citation": "Ne pas mettre tous ses œufs dans le même panier.",
+        "image": "_.jpg"
+
     },
     {
         "numero": 22,
@@ -187,7 +213,9 @@ const oracleCards = [
         "fait_verifie": "Les systèmes s'autorégulent grâce aux boucles de rétroaction (cybernétique - Wiener, 1948).",
         "question": "Quels signaux me permettent de corriger ma trajectoire ?",
         "principe": "Ajustement continu",
-        "citation": "Celui qui écoute les signaux navigue avec précision."
+        "citation": "Celui qui écoute les signaux navigue avec précision.",
+        "image": "_.jpg"
+
     },
     {
         "numero": 23,
@@ -195,7 +223,9 @@ const oracleCards = [
         "fait_verifie": "Les moins compétents surestiment leurs capacités (Effet Dunning-Kruger, 1999).",
         "question": "Dans quel domaine pourrais-je surestimer mes compétences ?",
         "principe": "Humilité cognitive",
-        "citation": "Plus on sait, plus on réalise qu'on ne sait pas."
+        "citation": "Plus on sait, plus on réalise qu'on ne sait pas.",
+        "image": "_.jpg"
+
     },
     {
         "numero": 24,
@@ -203,7 +233,9 @@ const oracleCards = [
         "fait_verifie": "La puissance de calcul double tous les deux ans (Moore, 1965).",
         "question": "Comment puis-je anticiper l'évolution technologique dans mon domaine ?",
         "principe": "Anticipation exponentielle",
-        "citation": "Le futur arrive plus vite qu'on ne le pense."
+        "citation": "Le futur arrive plus vite qu'on ne le pense.",
+        "image": "_.jpg"
+
     },
     {
         "numero": 25,
@@ -211,7 +243,9 @@ const oracleCards = [
         "fait_verifie": "En physique quantique, une particule peut être dans plusieurs états simultanément.",
         "question": "Quelles possibilités puis-je maintenir ouvertes avant de faire un choix définitif ?",
         "principe": "Options multiples",
-        "citation": "Garder plusieurs portes ouvertes préserve les opportunités."
+        "citation": "Garder plusieurs portes ouvertes préserve les opportunités.",
+        "image": "_.jpg"
+
     },
     {
         "numero": 26,
@@ -219,7 +253,9 @@ const oracleCards = [
         "fait_verifie": "La performance d'un système est limitée par son maillon le plus faible (Goldratt, 1984).",
         "question": "Quel est le goulot d'étranglement qui limite ma progression ?",
         "principe": "Identification du limitant",
-        "citation": "Renforcer le maillon faible libère tout le potentiel."
+        "citation": "Renforcer le maillon faible libère tout le potentiel.",
+        "image": "_.jpg"
+
     },
     {
         "numero": 27,
@@ -227,7 +263,9 @@ const oracleCards = [
         "fait_verifie": "La perception dépend du référentiel d'observation (Einstein, 1905).",
         "question": "Depuis quel autre point de vue puis-je considérer cette situation ?",
         "principe": "Relativité des perspectives",
-        "citation": "Changer de référentiel change la réalité perçue."
+        "citation": "Changer de référentiel change la réalité perçue.",
+        "image": "_.jpg"
+
     },
     {
         "numero": 28,
@@ -235,7 +273,9 @@ const oracleCards = [
         "fait_verifie": "La division du travail augmente la productivité (Adam Smith, 1776).",
         "question": "Dans quoi dois-je me spécialiser pour maximiser ma contribution ?",
         "principe": "Focus et expertise",
-        "citation": "L'excellence naît de la concentration."
+        "citation": "L'excellence naît de la concentration.",
+        "image": "_.jpg"
+
     },
     {
         "numero": 29,
@@ -243,7 +283,9 @@ const oracleCards = [
         "fait_verifie": "Des propriétés nouvelles émergent de l'interaction des parties (Théorie de la complexité).",
         "question": "Quelles nouvelles possibilités pourraient émerger de cette combinaison d'éléments ?",
         "principe": "Créativité systémique",
-        "citation": "L'innovation naît de l'interaction inattendue."
+        "citation": "L'innovation naît de l'interaction inattendue.",
+        "image": "_.jpg"
+
     },
     {
         "numero": 30,
@@ -251,7 +293,9 @@ const oracleCards = [
         "fait_verifie": "Toute innovation suit un cycle : émergence, croissance, maturité, déclin (Schumpeter).",
         "question": "À quelle phase du cycle se trouve cette idée ou ce projet ?",
         "principe": "Temporalité de l'innovation",
-        "citation": "Reconnaître le cycle permet d'agir au bon moment."
+        "citation": "Reconnaître le cycle permet d'agir au bon moment.",
+        "image": "_.jpg"
+
     },
     {
         "numero": 31,
@@ -259,7 +303,9 @@ const oracleCards = [
         "fait_verifie": "La nature emprunte toujours le chemin qui minimise l'énergie (Maupertuis, 1744).",
         "question": "Quel est le chemin le plus direct et économe vers mon objectif ?",
         "principe": "Efficience naturelle",
-        "citation": "La nature enseigne l'économie d'effort."
+        "citation": "La nature enseigne l'économie d'effort.",
+        "image": "_.jpg"
+
     },
     {
         "numero": 32,
@@ -267,7 +313,9 @@ const oracleCards = [
         "fait_verifie": "Certains phénomènes ne se manifestent qu'après avoir dépassé un seuil critique.",
         "question": "Quel seuil dois-je franchir pour déclencher le changement souhaité ?",
         "principe": "Masse critique",
-        "citation": "Parfois, il faut persévérer jusqu'au point de bascule."
+        "citation": "Parfois, il faut persévérer jusqu'au point de bascule.",
+        "image": "_.jpg"
+
     },
     {
         "numero": 33,
@@ -275,7 +323,9 @@ const oracleCards = [
         "fait_verifie": "L'information ne peut être détruite, seulement transformée (Physique quantique).",
         "question": "Quelles informations précieuses pourrais-je transformer plutôt que d'ignorer ?",
         "principe": "Valorisation informationnelle",
-        "citation": "Aucune connaissance n'est jamais vraiment perdue."
+        "citation": "Aucune connaissance n'est jamais vraiment perdue.",
+        "image": "_.jpg"
+
     },
     {
         "numero": 34,
@@ -283,7 +333,9 @@ const oracleCards = [
         "fait_verifie": "Les lois de la physique restent invariantes sous certaines transformations (Théorème de Noether).",
         "question": "Quels éléments constants puis-je identifier dans cette situation changeante ?",
         "principe": "Invariants fondamentaux",
-        "citation": "Dans le changement, chercher ce qui demeure."
+        "citation": "Dans le changement, chercher ce qui demeure.",
+        "image": "_.jpg"
+
     },
     {
         "numero": 35,
@@ -291,7 +343,9 @@ const oracleCards = [
         "fait_verifie": "Les décisions optimales dépendent des stratégies des autres acteurs (Nash, 1950).",
         "question": "Comment les autres parties prenantes vont-elles réagir à ma décision ?",
         "principe": "Interdépendance stratégique",
-        "citation": "Anticiper les réactions améliore les décisions."
+        "citation": "Anticiper les réactions améliore les décisions.",
+        "image": "_.jpg"
+
     },
     {
         "numero": 36,
@@ -299,7 +353,9 @@ const oracleCards = [
         "fait_verifie": "Toute l'information d'un volume peut être encodée sur sa surface (Physique théorique).",
         "question": "Quels détails révèlent l'ensemble de la situation ?",
         "principe": "Information fractale",
-        "citation": "Le microcosme révèle le macrocosme."
+        "citation": "Le microcosme révèle le macrocosme.",
+        "image": "_.jpg"
+
     }
 ];
 
