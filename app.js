@@ -94,7 +94,7 @@ const oracleCards = [
         "question": "Quelles incertitudes dois-je accepter pour avancer ?",
         "principe": "Acceptation de l'inconnu",
         "citation": "L'incertitude est le seul endroit où réside la possibilité.",
-        "image": "_.jpg"
+        "image": "10-incertitude.jpg"
 
     },
     {
