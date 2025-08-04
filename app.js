@@ -114,7 +114,7 @@ const oracleCards = [
         "question": "Quels 20% d'efforts pourraient produire 80% des résultats souhaités ?",
         "principe": "Efficacité concentrée",
         "citation": "L'essentiel réside souvent dans le minoritaire.",
-        "image": "_.jpg"
+        "image": "12-Pareto.jpg"
 
     },
     {
