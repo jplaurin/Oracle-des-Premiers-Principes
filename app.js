@@ -63,7 +63,9 @@ const oracleCards = [
         "fait_verifie": "La solution la plus simple est généralement la meilleure (Rasoir d'Ockham, 14e siècle).",
         "question": "Quelle est la solution la plus directe et simple à ce problème ?",
         "principe": "Simplicité efficace",
-        "citation": "Il ne faut pas multiplier les êtres sans nécessité."
+        "citation": "Il ne faut pas multiplier les êtres sans nécessité.",
+        "image": "07-parcimonie.jpg"
+
     },
     {
         "numero": 8,
@@ -71,7 +73,9 @@ const oracleCards = [
         "fait_verifie": "Le cerveau peut se réorganiser et créer de nouvelles connexions tout au long de la vie (Kandel, 2000).",
         "question": "Quelles nouvelles habitudes puis-je développer pour transformer ma façon de penser ou d'agir ?",
         "principe": "Adaptabilité mentale",
-        "citation": "Le cerveau qui se transforme transforme l'être."
+        "citation": "Le cerveau qui se transforme transforme l'être.",
+        "image": "08-Neuroplastique.jpg"
+
     },
     {
         "numero": 9,
