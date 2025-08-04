@@ -274,7 +274,7 @@ const oracleCards = [
         "question": "Dans quoi dois-je me spécialiser pour maximiser ma contribution ?",
         "principe": "Focus et expertise",
         "citation": "L'excellence naît de la concentration.",
-        "image": "_.jpg"
+        "image": "28-specialisation.jpg"
 
     },
     {
