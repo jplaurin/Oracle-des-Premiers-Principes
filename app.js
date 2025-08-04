@@ -234,7 +234,7 @@ const oracleCards = [
         "question": "Comment puis-je anticiper l'évolution technologique dans mon domaine ?",
         "principe": "Anticipation exponentielle",
         "citation": "Le futur arrive plus vite qu'on ne le pense.",
-        "image": "_.jpg"
+        "image": "24-moore.jpg"
 
     },
     {
